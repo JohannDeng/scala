@@ -1,4 +1,4 @@
-//Create Scala function "countCh" to count how many specific chars appear in a String.
+//Create Scala function "countCh" to count how many times specific char appear in a String.
 
 def countCh(ch: Char, s: String) = {
    var count = 0
