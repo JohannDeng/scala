@@ -1,0 +1,10 @@
+//Create Scala function "countCh" to count how many specific chars appear in a String.
+
+def countCh(ch: Char, s: String) = {
+   var count = 0
+   for(ich <- s) 
+      if (ich==ch) count +=1
+   count
+}
+
+//example: countCh('o', "Hello, Johann"). It will return 2. Because there are two 'o' in "Hello, Johann". You can use REPL to run it.
