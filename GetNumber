@@ -1,0 +1,3 @@
+//Get number in a random string
+val s="Hello, ifrf78hgjfh i07k4t365, *&^%$ddffgo"
+for (elem <- s if elem>='0' & elem<='9') yield elem
