@@ -17,3 +17,9 @@ def countCh(ch: Char, s: String) = {
 }
 
 //using yield is simpler coding. It will create a new string and put it into result.
+
+
+//using 'filter'. Just one line coding!!!
+def countCh(ch: Char, s: String) = {
+  s.filter(_ == ch).length
+}
