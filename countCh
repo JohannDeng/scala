@@ -8,3 +8,12 @@ def countCh(ch: Char, s: String) = {
 }
 
 //example: countCh('o', "Hello, Johann"). It will return 2. Because there are two 'o' in "Hello, Johann". You can use REPL to run it.
+
+
+//Count char using "yield"
+def countCh(ch: Char, s: String) = {
+    var result = for(elem <- s if elem==ch) yield elem
+    result.length
+}
+
+//using yield is more simple coding. it will create a new string and put it into result.
