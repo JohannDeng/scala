@@ -16,4 +16,4 @@ def countCh(ch: Char, s: String) = {
     result.length
 }
 
-//using yield is more simple coding. it will create a new string and put it into result.
+//using yield is simpler coding. It will create a new string and put it into result.
