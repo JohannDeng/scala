@@ -23,3 +23,8 @@ def countCh(ch: Char, s: String) = {
 def countCh(ch: Char, s: String) = {
   s.filter(_ == ch).length
 }
+
+//using 'count'
+def countCh(ch: Char, s: String) = {
+  s.count(_ == ch)
+}
