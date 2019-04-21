@@ -12,7 +12,7 @@ def countCh(ch: Char, s: String) = {
 
 //Count char using "yield"
 def countCh(ch: Char, s: String) = {
-    var result = for(elem <- s if elem==ch) yield elem
+    var result = for(elem <- s if elem==ch) yield (elem)
     result.length
 }
 
